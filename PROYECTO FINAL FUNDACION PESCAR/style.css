@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@200&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Playpen Sans', sans-serif;
+
+}
+
+/*ESTILO DE HEADER*/
+
+header {
+ 
+    height: 167px;
+    text-align: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+#logo {
+    width: 347px;
+    height: 104px;
+    margin-left: 30px;
+
+}
+
+#buscador {
+    margin-right: 30px;
+}
+
+
+a {
+    text-decoration: none;
+
+}
+
+#a-inicio {
+    background-image: url(img/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    padding: 0 20px 15px 0;
+    
+}
+
+#barra-de-navegacion a {
+    margin: 10px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
