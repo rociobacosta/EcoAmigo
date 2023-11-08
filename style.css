@@ -7,21 +7,22 @@ footer{
   text-align: center;
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .footerAnimalitos{
-  width: 98vw;
+  width: 99vw;
   height: 370px;
 }
 
 .footerAnimalitos img{
-  width: 90vw;
-  height: 350px;
+  width: 700px;
+  height: 300px;
 }
 
 .informacionFooter{
    margin-top: 45px;
-   width: 99vw;
+   width: 1094px;
    text-align: center;
    display: flex;
    flex-direction: column;
@@ -29,7 +30,7 @@ footer{
   
 }
 .informacionFooter img{
-  width: 270px;
+  width: 220px;
   padding-bottom: 25px;
 }
 
@@ -39,13 +40,12 @@ footer{
 }
 
 .informacionFooter i{
-  font-size: 80px;
+  font-size: 60px;
   margin: 15px 20px;
 }
 
 .informacionFooter .derechosReservados{
   font-weight: lighter;
   font-size: 16px;
-  text-align: center;
   margin-top: 10px;
 }
