@@ -7,7 +7,11 @@ footer{
   text-align: center;
   display: flex;
   flex-direction: column;
+<<<<<<< HEAD
   align-items: center ;
+=======
+  align-items: center;
+>>>>>>> 9db1fea69861db537d17f16840f605c0865671ee
 }
 
 .footerAnimalitos{
@@ -23,7 +27,11 @@ footer{
 
 .informacionFooter{
    margin-top: 45px;
+<<<<<<< HEAD
    width: 1024px;
+=======
+   width: 1094px;
+>>>>>>> 9db1fea69861db537d17f16840f605c0865671ee
    text-align: center;
    display: flex;
    flex-direction: column;
