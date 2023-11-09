@@ -9,6 +9,7 @@
 }
 
 body {
+  width: 1920px;
   font-family: 'Baloo 2', sans-serif;
 }
 
@@ -57,6 +58,73 @@ a {
     font-weight: 600;
 }
 
+/*estilos body*/
+
+  
+#como_funciona{
+  height: 866px;
+  width: 1920px;
+  justify-content: space-between;
+  align-items: center;
+  display
+  : flex;
+
+}
+
+#texto{
+  width: 748px;
+  height: 685px;
+  margin: 73px 60px;
+
+}
+  #texto h2{
+      font-size: 65px;
+  }
+  #texto p{
+      font-size: 45px;
+  }
+#apartados{
+  margin: 242px 237px 43px  ;
+
+}
+#apartados a img{
+  width: 303px;
+  height: 268px;
+  margin-bottom: 92px ;
+  margin-left: 44px;
+}
+
+.targetas{
+  margin:66px 84px 219px 113px ;
+}
+.targetas div{
+  display: flex;
+  
+
+}
+.targetas h2{
+  width: 1920px;
+  margin-bottom: 150px ;
+  font-size: 65px;
+}
+.targetas a img{
+  width: 450px;
+  height: 412px;
+  margin: 62px ;
+}
+
+#cuentos a img{
+  width: 477px ;
+  height: 544px;
+}
+
+#juegos a img{
+  width: 484px ;
+  height: 670px;
+}
+
+
+/*estilos footer*/
 footer{
   width: 99vw;
   font-family: 'Baloo 2', sans-serif;
