@@ -9,19 +9,17 @@
 }
 
 body {
-  width: 1920px;
+  width: 1442px;
   font-family: 'Baloo 2', sans-serif;
 }
 
 /*ESTILO DE HEADER*/
 
 header {
- 
-    height: 167px;
+    width: 1440px; ;
+    height: 142px;
     text-align: center;
-    position: fixed;
-    top: 0px;
-    width: 100%;
+    margin: 36px 100px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,20 +28,23 @@ header {
 }
 
 #logo {
-    width: 347px;
-    height: 104px;
+    width: 220px;
+    height: 90px;
     margin-left: 30px;
 
 }
 
 #buscador {
     margin-right: 30px;
+    width: 35px;
+    height: 38px;
 }
 
 
 a {
     text-decoration: none;
     color:black;
+    padding: 0px 13px;
 
 }
 
@@ -57,77 +58,77 @@ a {
 #barra-de-navegacion a {
     margin: 10px;
     font-weight: 600;
+    font-size: 20px;
 }
 
+.hero-banner{
+  width: 1442px;
+  height: 626px; 
+  margin-bottom:40px ;
+}
 /*estilos body*/
 
-  
 #como_funciona{
-  height: 866px;
-  width: 1920px;
-  justify-content: space-between;
+  height: 494px;
+  width: 1442px;
   align-items: center;
-  display
-  : flex;
+  display: flex;
+  margin: 180px 0px 73px 100px ;
 
 }
 
 #texto{
-  width: 748px;
-  height: 685px;
-  margin: 73px 60px;
-
+  width: 484px;
+  height: 379px;
+  margin:0px 179px 0px;
 }
   #texto h2{
-      font-size: 65px;
+      font-size: 48px;
   }
   #texto p{
-      font-size: 45px;
+      font-size: 32px;
   }
 #apartados{
-  margin: 242px 237px 43px  ;
-
+  width: 450px;
+  height: 380px;
+  padding: 0;
 }
 #apartados a img{
-  width: 303px;
-  height: 268px;
-  margin-bottom: 92px ;
-  margin-left: 44px;
+  width: 184px;
+  height: 163px;
+  margin-bottom: 42px ;
+
 }
 
-.targetas{
-  margin:66px 84px 219px 113px ;
+.tarjetas{
+  margin:0px 283px 88px 104px ;
 }
-.targetas div{
+.tarjetas div{
   display: flex;
-  
-
 }
-.targetas h2{
-  width: 1920px;
-  margin-bottom: 150px ;
-  font-size: 65px;
+.tarjetas h2{
+  margin-bottom: 33px ;
+  font-size: 36px;
 }
-.targetas a img{
-  width: 450px;
-  height: 412px;
-  margin: 62px ;
+.tarjetas a img{
+  width: 295px;
+  height: 279px;
+  margin: 0 42px ;
 }
-
-#cuentos a img{
-  width: 477px ;
-  height: 544px;
-}
-
 #juegos a img{
-  width: 484px ;
-  height: 670px;
+  width: 295px ;
+  height: 409px;
+}
+#cuentos a img{
+  width: 344px ;
+  height: 348px;
 }
 
 
 /*estilos footer*/
 footer{
-  width: 99vw;
+  width: 1442px;
+  height: 1164px;
   font-family: 'Baloo 2', sans-serif;
   text-align: center;
   display: flex;
@@ -135,43 +136,40 @@ footer{
   align-items: center ;
 }
 
-.footerAnimalitos{
-  width: 99vw;
-  height: 370px;
-
-}
 
 .footerAnimalitos img{
-  width: 700px;
-  height: 300px;
+  width: 1440px;
+  height: 591px;
 }
 
 .informacionFooter{
-   margin-top: 45px;
-   width: 1024px;
+   margin-top: 78px;
+   width: 1442px;
    text-align: center;
    display: flex;
    flex-direction: column;
    align-items: center; 
   
 }
-.informacionFooter img{
-  width: 220px;
-  padding-bottom: 25px;
+.logo-footer{
+  width: 487px;
+  height: 138px;
+  padding-bottom: 19px;
 }
 
 .informacionFooter .seguinos{
   font-weight: bold;
-  font-size: 18px;
+  font-size: 23px;
 }
 
-.informacionFooter i{
-  font-size: 60px;
-  margin: 15px 20px;
+.informacionFooter .redes img{
+  width: 68.35px;
+  height: 73px;
+  margin: 20px 20px;
 }
 
 .informacionFooter .derechosReservados{
   font-weight: lighter;
-  font-size: 16px;
-  margin-top: 10px;
+  font-size: 20px;
+  margin-top: 100px;
 }
