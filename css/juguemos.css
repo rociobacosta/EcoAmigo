@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Nunito:ital,wght@0,400;0,600;1,300;1,400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+  
+  font-family: 'Baloo 2', sans-serif;
+
+
+}
+
+/*ESTILO DE HEADER*/
+
+header {
+    width: 1150px; ;
+    height: 50px;
+    text-align: center;
+    margin: 36px 50px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+#logo {
+    width: 110px;
+    height: 35px;
+    margin-left: 5px;
+
+}
+
+#buscador {
+    margin-right: 50px;
+    width: 17px;
+    height: 17px;
+}
+
+
+a {
+    text-decoration: none;
+    color:black;
+    padding: 0px 13px;
+
+}
+
+#a-inicio {
+    background-image: url(../img/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position-y:3px ;
+    
+}
+
+#barra-de-navegacion a {
+    margin: 5px;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.hero-banner img{
+    width: 1250px;
+    height: 580px; 
+    margin-bottom:40px ;
+  }
