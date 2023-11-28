@@ -154,6 +154,63 @@ a {
   background-position-y: 20px;
 }
 
+/* Estilos Contacto*/
+
+
+.contacto-banner { 
+
+    margin-bottom: 50px;
+}
+
+
+#a-contacto {
+
+    background-image: url(img/sub3.png);
+    background-repeat: no-repeat;
+    background-position-y:7px ;
+  
+}
+
+#p-contacto {
+
+  font-size: 45px;
+}
+
+.custom-input-container {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.custom-input-label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #333;
+  pointer-events: none;
+  transition: 0.3s;
+}
+
+.custom-input {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+  outline: none;
+  transition: 0.3s;
+}
+
+.custom-input:focus + .custom-input-label,
+.custom-input:not(:placeholder-shown) + .custom-input-label {
+  font-size: 12px;
+  transform: translateY(-100%);
+  color: #4285f4; /* Cambia esto al color que prefieras */
+}
+
+
+
+
 /*estilos footer*/
 footer{
   width: 1442px;
