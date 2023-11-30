@@ -16,7 +16,7 @@ body {
 /*ESTILO DE HEADER*/
 
 header {
-    width: 1442px; ;
+    width: 1420px; ;
     height: 142px;
     text-align: center;
     margin: 36px 100px ;
@@ -62,7 +62,7 @@ a {
 }
 
 .hero-banner{
-  width: 1442px;
+  width: 1420px;
   height: 626px; 
   margin-bottom:40px ;
 }
@@ -70,7 +70,7 @@ a {
 
 #como_funciona{
   height: 494px;
-  width: 1442px;
+  width: 1420px;
   align-items: center;
   display: flex;
   margin: 180px 0px 73px 100px ;
@@ -156,7 +156,7 @@ a {
 
 /*estilos footer*/
 footer{
-  width: 1442px;
+  width: 1420px;
   height: 1164px;
   font-family: 'Baloo 2', sans-serif;
   text-align: center;
@@ -167,13 +167,13 @@ footer{
 
 
 .footerAnimalitos img{
-  width: 1440px;
+  width: 1420px;
   height: 591px;
 }
 
 .informacionFooter{
    margin-top: 78px;
-   width: 1442px;
+   width: 1420px;
    text-align: center;
    display: flex;
    flex-direction: column;
