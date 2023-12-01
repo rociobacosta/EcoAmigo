@@ -1,0 +1,201 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Nunito:ital,wght@0,400;0,600;1,300;1,400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+
+body {
+  
+  font-family: 'Baloo 2', sans-serif;
+  
+}
+
+/*ESTILO DE HEADER*/
+
+header {
+    width: 1280px; ;
+    height: 142px;
+    text-align: center;
+    margin: 36px 100px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+
+}
+
+#logo {
+    width: 220px;
+    height: 90px;
+
+}
+
+#buscador {
+    margin-right: 30px;
+    width: 35px;
+    height: 38px;
+}
+
+
+a {
+    text-decoration: none;
+    color:black;
+    padding: 0px 13px;
+
+}
+
+
+#barra-de-navegacion a {
+    margin: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.hero-banner{
+  width: 1442px;
+  height: 626px; 
+  margin-bottom:40px ;
+}
+
+/* Estilos Contacto*/
+
+
+.contacto-banner { 
+
+    margin-bottom: 50px;
+}
+
+
+#a-contacto {
+
+    background-image: url(../img/sub3\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position-y:7px ;
+  
+}
+
+#p-contacto {
+
+  font-size: 35px;
+  text-align: center;
+  margin: 100px;
+  font-weight: 600;
+}
+
+
+.custom-input-container {
+  position: relative;
+  margin: 20px 0px 20px 450px;
+}
+
+.custom-input-label {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+  color: #333;
+  pointer-events: none;
+  transition: 0.3s;
+  color: white;
+}
+
+.custom-input {
+  width: 50%;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #0F5FA6;
+  border: 1px solid #0F5FA6;
+  color: white;
+  border-radius: 20px;
+  outline: none;
+  transition: 0.3s;
+}
+
+
+.custom-input:focus + .custom-input-label,
+.custom-input:not(:placeholder-shown) + .custom-input-label {
+  font-size: 12px;
+  transform: translateY(-100%);
+  color: #4285f4;
+}
+
+#texto-formulario {
+    margin: 50px;
+    text-align: justify;
+    padding: 50px;
+}
+
+#label-msj-contacto {
+
+  position: absolute;
+  bottom: -130px;
+}
+
+#input-msj-contacto {
+  height: 300px;
+}
+
+#boton-contacto {
+
+  width: 20%;
+  margin-left: 150px;
+  font-size: 26px;
+  font-weight: 700;
+}
+
+
+
+/*estilos footer*/
+footer{
+  width: 1442px;
+  height: 1164px;
+  font-family: 'Baloo 2', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+
+.footerAnimalitos img{
+  width: 1440px;
+  height: 591px;
+}
+
+.informacionFooter{
+   margin-top: 78px;
+   width: 1442px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+  
+}
+.logo-footer{
+  width: 487px;
+  height: 138px;
+  padding-bottom: 19px;
+}
+
+.informacionFooter .seguinos{
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.informacionFooter .redes img{
+  width: 68.35px;
+  height: 73px;
+  margin: 20px 20px;
+}
+
+.informacionFooter .derechosReservados{
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 100px;
+}
