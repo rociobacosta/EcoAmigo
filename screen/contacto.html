@@ -36,44 +36,40 @@
             </p>
         </div>
 
-        <div id="formulario-contacto">
+        <form id="contacto" method="">
+          <div class="custom-input-container">
+              <input class="custom-input" type="text" placeholder="Nombre y apellido:" required>
+          </div>
 
-            <form action="">
+          </div>
+          <div class="custom-input-container">
+            <input class="custom-input" type="email" placeholder="Email:" required>
+          </div>
 
-                <div class="custom-input-container">
-                    <label class="custom-input-label" for="nombre-apellido">Nombre y Apellido:</label>
-                    <input class="custom-input" type="text" id="nombre-apellido" name="nombre" required >
-                </div>
-                <div class="custom-input-container">
-                    <label class="custom-input-label" for="email">E-mail:</label>
-                    <input class="custom-input" type="text" id="email" name="email" required >
-                </div>
-                <div class="custom-input-container">
-                    <label class="custom-input-label" for="asunto">Asunto:</label>
-                    <input class="custom-input" type="text" id="asunto" name="asunto" required >
-                </div>
-                <div class="custom-input-container">
-                    <label id="label-msj-contacto" class="custom-input-label" for="mensaje">Mensaje:</label>
-                    <input id="input-msj-contacto" class="custom-input" type="text" id="mensaje" name="mensaje" required >
-                </div>
+          <div class="custom-input-container">
+              <input class="custom-input" type="text" placeholder="Asunto:" required>
+            </div>
 
-                <div id="texto-formulario">
-                    <input type="checkbox" id="checkbox" name="checkbox">
-                    <label for="checkbox">ENTIENDO Y ACEPTO el tratamiento de mis datos tal y como se describe posteriormente y se explica con mayor detalle en la Política de Privacidad.
+          <div class="custom-input-container">
+              <textarea id="input-msj-contacto" class="custom-input" placeholder="Mensaje:" required></textarea>
+          </div>
 
-                        Información básica en protección de datos.- Conforme al RGPD y la LOPDGDD, EcoAmigo tratará los datos facilitados, con la finalidad de contestar las dudas y/o quejas planteadas a través del presente formulario y facilitar la información solicitada. Siempre que nos lo autorice previamente, enviaremos información relacionada con los servicios ofrecidos por EcoAmigo. Podrá ejercer, si lo desea, los derechos de acceso, rectificación, supresión, y demás reconocidos en la normativa mencionada. Para obtener más información acerca de cómo estamos tratando sus datos, acceda a nuestra política de privacidad.</label>
-                </div>
+          <div id="texto-formulario">
+            <input type="checkbox" id="checkbox" name="checkbox">
+            ENTIENDO Y ACEPTO el tratamiento de mis datos tal y como se describe posteriormente y se explica con mayor detalle en la Política de Privacidad.
+            Información básica en protección de datos.- Conforme al RGPD y la LOPDGDD, EcoAmigo tratará los datos facilitados, con la finalidad de contestar 
+            las dudas y/o quejas planteadas a través del presente formulario y facilitar la información solicitada. Siempre que nos lo autorice previamente,
+            enviaremos información relacionada con los servicios ofrecidos por EcoAmigo. Podrá ejercer, si lo desea, los derechos de acceso, rectificación, 
+            supresión, y demás reconocidos en la normativa mencionada. Para obtener más información acerca de cómo estamos tratando sus datos, acceda a nuestra política de privacidad.
+          </div>
 
-                <div class="custom-input-container">
-                    <input id="boton-contacto" class="custom-input" type="submit" value="Enviar">
-                </div>
+          <div class="custom-input-container">
+            <input id="boton-contacto" class="custom-input" type="submit" value="Enviar">
+          </div>
 
+        </form>  
 
-            </form>
-        </div>
     </main>
-
-
 
     <footer>
         <div class="footerAnimalitos">
