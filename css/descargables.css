@@ -1,7 +1,21 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
 
+/* ///////////////////////barra de navegacion///////////////////////////// */
 
+#a-inicio{
+  background-color: #fff !important;
+  background-image: none !important;
+}
+
+.desc-nav{
+  background-image: url(../img/manchaNav.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+/* ////////////////////////banner/////////////////////////////////////////////// */
 .hero-banner-desc{
   width: 1420px;
   height: 800px;

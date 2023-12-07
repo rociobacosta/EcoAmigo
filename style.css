@@ -178,7 +178,7 @@ footer{
    display: flex;
    flex-direction: column;
    align-items: center; 
-  
+   background-image: url(img/bgi-footer.png);
 }
 .logo-footer{
   width: 487px;
