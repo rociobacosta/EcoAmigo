@@ -18,21 +18,21 @@ body {
 /*ESTILO DE HEADER*/
 
 header {
-    width: 1280px; ;
-    height: 142px;
-    text-align: center;
-    margin: 36px 100px ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
+  width: 100%;
+  position: absolute;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  
 
-}
+} 
 
 #logo {
-    width: 220px;
-    height: 90px;
-
+  width: 220px;
+  height: 90px;
+  margin-left: 30px;
 }
 
 #buscador {
@@ -45,7 +45,7 @@ header {
 a {
     text-decoration: none;
     color:black;
-    padding: 0px 13px;
+    padding: 0px 1px;
 
 }
 

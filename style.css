@@ -16,22 +16,21 @@ body {
 /*ESTILO DE HEADER*/
 
 header {
-    width: 1442px; ;
-    height: 142px;
-    text-align: center;
-    margin: 36px 100px ;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
+  width: 100%;
+  position: absolute;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: white;
+  
 
-}
+} 
 
 #logo {
-    width: 220px;
-    height: 90px;
-    margin-left: 30px;
-
+  width: 220px;
+  height: 90px;
+  margin-left: 30px;
 }
 
 #buscador {
@@ -56,9 +55,10 @@ a {
 }
 
 #barra-de-navegacion a {
-    margin: 10px;
-    font-weight: 600;
-    font-size: 20px;
+  font-weight: 600;
+  font-size: 16px;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .hero-banner{
@@ -153,7 +153,6 @@ a {
   background-position-x: 30px ;
   background-position-y: 20px;
 }
-
 
 /*estilos footer*/
 footer{
