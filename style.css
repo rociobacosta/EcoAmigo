@@ -164,6 +164,7 @@ a {
   background-position: center;
   transition: .5s;
   position: relative;
+  border-radius: 10px;
 }
 
 .card-video .intro-video{
