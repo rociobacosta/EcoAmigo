@@ -5,21 +5,21 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
 
 body {
   
   font-family: 'Baloo 2', sans-serif;
+  overflow-x: hidden;
 }
 
 /*ESTILO DE HEADER*/
 
 header {
-    width: 1420px; ;
-    height: 142px;
+    width: 1550px; ;
+    height: 120px;
     text-align: center;
-    margin: 36px 100px ;
+    padding: 60px 50px ;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -28,7 +28,7 @@ header {
 }
 
 #logo {
-    width: 220px;
+    width: 250px;
     height: 90px;
     margin-left: 30px;
 
@@ -36,7 +36,7 @@ header {
 
 #buscador {
     margin-right: 30px;
-    width: 35px;
+    width: 40px;
     height: 38px;
 }
 
@@ -62,9 +62,13 @@ a {
 }
 
 .hero-banner{
-  width: 1420px;
+  width: 1550px;
   height: 626px; 
   margin-bottom:40px ;
+}
+
+.hero-banner img{
+  width: 1550px;
 }
 /*estilos body*/
 
@@ -226,8 +230,9 @@ a {
 
 /*estilos footer*/
 footer{
-  width: 1420px;
-  height: 1164px;
+  width: 1550px;
+  height: 1000px;
+  margin-top: 150px;
   font-family: 'Baloo 2', sans-serif;
   text-align: center;
   display: flex;
@@ -237,13 +242,13 @@ footer{
 
 
 .footerAnimalitos img{
-  width: 1420px;
-  height: 591px;
+  width: 1200px;
+  height: 500px;
 }
 
 .informacionFooter{
    margin-top: 78px;
-   width: 1420px;
+   width: 1550px;
    text-align: center;
    display: flex;
    flex-direction: column;
@@ -254,19 +259,20 @@ footer{
    background-repeat: no-repeat;
 }
 .logo-footer{
-  width: 487px;
-  height: 138px;
+  width: 400px;
+  height: 120px;
   padding-bottom: 19px;
+  padding-left: 18px;
 }
 
 .informacionFooter .seguinos{
   font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
 }
 
 .informacionFooter .redes img{
-  width: 68.35px;
-  height: 73px;
+  width: 55px;
+  height: 55px;
   margin: 20px 20px;
 }
 
