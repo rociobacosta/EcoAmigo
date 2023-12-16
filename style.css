@@ -17,9 +17,9 @@ body {
 
 header {
     width: 1550px; ;
-    height: 120px;
+    height: 150px;
     text-align: center;
-    padding: 60px 50px ;
+    padding: 0 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,23 +30,14 @@ header {
 #logo {
     width: 250px;
     height: 90px;
-    margin-left: 30px;
-
 }
 
 #buscador {
-    margin-right: 30px;
+    margin-right: 50px;
     width: 40px;
     height: 38px;
 }
 
-
-a {
-    text-decoration: none;
-    color:black;
-    padding: 0px 13px;
-
-}
 
 #a-inicio {
     background-image: url(img/Vector\ \(1\).png);
@@ -55,11 +46,23 @@ a {
     
 }
 
-#barra-de-navegacion a {
-    margin: 10px;
+
+#barra-de-navegacion a{
     font-weight: 600;
-    font-size: 20px;
+    font-size: 22px;
+    text-decoration: none;
+    color:black;
+    padding: 0px 13px;
+    transition: 0.5s ease-in-out;
+   
 }
+
+#barra-de-navegacion a:hover{
+  font-size: 28px;
+  text-shadow: 2px 2px 2px rgba(96, 95, 95, 0.);
+  background-position-y:bottom;
+}
+
 
 .hero-banner{
   width: 1550px;

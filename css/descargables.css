@@ -14,13 +14,13 @@
 }
 
 
+
 /* ////////////////////////banner/////////////////////////////////////////////// */
 .hero-banner-desc{
   width: 1420px;
   height: 800px;
   background-image: url(../img/descable-banner.jpg);
   background-repeat: no-repeat;
-
 }
 
 .cajas{
@@ -47,15 +47,21 @@
 /* /////////////////////////info//////////////////////// */
 
 .bienvenidos{
-  width: 1400px;
-  height: 650px;
-  margin: 30px 0 15px 70px;
+  width: 1200px;
+  height: 500px;
+  margin-left: 270px; 
   background-image: url(../img/desc_fondo_celes.png);
   background-repeat: no-repeat;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  padding-bottom: 50px;
+  background-size:contain;
+  margin-bottom: 70px;
+}
+
+.bienvenidos img{
+  width: 900px;
+  height: 420px;
+  margin-top: 20px;
+  padding-left: 70px;
+  
 }
 
 /* //////////////////descargables//////////////////////// */
@@ -96,12 +102,13 @@
 }
 
 .card button{
-  width: 200px;
-  height: 40px;
-  margin-bottom: 15px;
+  width: 280px;
+  height: 70px;
+  margin-bottom: 10px;
   border-radius: 10px;
   font-family: 'Baloo 2', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
   border: none;
   transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
 }
