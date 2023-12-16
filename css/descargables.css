@@ -47,7 +47,7 @@
 /* /////////////////////////info//////////////////////// */
 
 .bienvenidos{
-  width: 1200px;
+  width: 1250px;
   height: 500px;
   margin-left: 270px; 
   background-image: url(../img/desc_fondo_celes.png);
@@ -60,7 +60,7 @@
   width: 900px;
   height: 420px;
   margin-top: 20px;
-  padding-left: 70px;
+  padding-left: 50px;
   
 }
 
