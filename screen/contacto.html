@@ -4,10 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ecoamigo</title>
-    <link rel="stylesheet" href="../css/contacto.css"
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../css/style-general.css"> 
+    <script
       src="https://kit.fontawesome.com/32e8a7a2c3.js"
       crossorigin="anonymous"
     ></script>
+    
   </head>
   <body>
 
@@ -36,46 +39,52 @@
             </p>
         </div>
 
-        <form id="contacto" method="">
-          <div class="custom-input-container">
-              <input class="custom-input" type="text" placeholder="Nombre y apellido:" required>
+        <form>
+          <div class="form-group">
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
           </div>
-
+      
+          <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
           </div>
-          <div class="custom-input-container">
-            <input class="custom-input" type="email" placeholder="Email:" required>
+      
+          <div class="form-group">
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="asunto" required>
           </div>
-
-          <div class="custom-input-container">
-              <input class="custom-input" type="text" placeholder="Asunto:" required>
-            </div>
-
-          <div class="custom-input-container">
-              <textarea id="input-msj-contacto" class="custom-input" placeholder="Mensaje:" required></textarea>
+      
+          <div class="form-group">
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
           </div>
 
           <div id="texto-formulario">
-            <input type="checkbox" id="checkbox" name="checkbox">
-            ENTIENDO Y ACEPTO el tratamiento de mis datos tal y como se describe posteriormente y se explica con mayor detalle en la Política de Privacidad.
+            <input type="checkbox" id="acepto" name="acepto" required>
+            <label for="acepto">Acepto los términos y condiciones</label>
+            <p>
+              ENTIENDO Y ACEPTO el tratamiento de mis datos tal y como se describe posteriormente y se explica con mayor detalle en la Política de Privacidad.
             Información básica en protección de datos.- Conforme al RGPD y la LOPDGDD, EcoAmigo tratará los datos facilitados, con la finalidad de contestar 
             las dudas y/o quejas planteadas a través del presente formulario y facilitar la información solicitada. Siempre que nos lo autorice previamente,
             enviaremos información relacionada con los servicios ofrecidos por EcoAmigo. Podrá ejercer, si lo desea, los derechos de acceso, rectificación, 
             supresión, y demás reconocidos en la normativa mencionada. Para obtener más información acerca de cómo estamos tratando sus datos, acceda a nuestra política de privacidad.
+            </p>
           </div>
 
-          <div class="custom-input-container">
-            <input id="boton-contacto" class="custom-input" type="submit" value="Enviar">
+          <div class="form-group">
+            <button type="submit">Enviar</button>
           </div>
-
         </form>  
 
     </main>
 
-    <footer>
+  
         <div class="footerAnimalitos">
           <img src="../img/footer-animalitos.png" alt="" />
         </div>
   
+      <footer>
         <div class="informacionFooter">
           <img class="logo-footer" src="../img/LOGO-ecoamigo-footer.png" alt="" />
           <span class="seguinos">Seguinos en nuestras redes - prueba!</span>
