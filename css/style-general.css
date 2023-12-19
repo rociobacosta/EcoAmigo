@@ -42,7 +42,11 @@ a {
 
 }
 
+<<<<<<< HEAD
 #a-inicio{
+=======
+#a-inicio {
+>>>>>>> 22caa877fd2afe3a575b13a87a30e517a1c24f36
     background-image: url(../img/Vector\ \(1\).png);
     background-repeat: no-repeat;
     background-position-y:3px ;

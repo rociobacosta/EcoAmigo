@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Nunito:ital,wght@0,400;0,600;1,300;1,400&display=swap');
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+body {
+  font-family: 'Baloo 2', sans-serif;
+}
+#a-inicio{
+    background-image: none !important;
+}
+
+#quienes_somos{
+    background-image: url(../img/sub_QuienS.png);
+    background-repeat: no-repeat;
+    background-position-y:-2px ;
+}
+.hero-banner-qs{
+    width: 1420px;
+    height: 800px;
+    background-repeat: no-repeat;
+  }
+
+/*main*/
+p{
+    font-size: 25px;}
+
+#animalitos{
+    background-image: url(../img/animalitos.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-position-y: 700px;
+    
+}
+#somos{
+    width: 1440px;
+    height: 686px;
+    display: flex;
+}
+#somos article{
+    width: 220px;
+    height: 310px;
+    border-radius: 20px;
+    margin: 242px 10px 178px;
+}
+#sofi{
+    background-color:#A65D33 ;
+    margin-left: 130px !important;
+}
+#ro{
+    background-color:#0f5fa6 ;
+}
+#trini{
+    background-color:#04b2d9 ;
+}
+#flor{
+    background-color:#7dbf5e ;
+}
+#carli{
+    background-color:#8f84a5 ;
+    margin-right:130px !important;
+}
+#texto{
+    
+    margin: auto;
+}
+#explicacion{
+    width: 968px;
+    height: 385px;
+    background-image: url(../img/sub_explicacion.png) ;
+    background-repeat: no-repeat; 
+    
+}
+#motivacion{
+    width: 1440px;
+    height: 395px;
+    background-image: url(../img/sub_motivacion.png) ;
+    background-repeat: no-repeat;
+    background-position:right;
+}
+#pescar{
+    width: 1177px;
+    height: 220px;
+    background-image: url(../img/sub_agradecimiento.png) ;
+    background-repeat: no-repeat;
+    background-position-y: 10px;
+    margin-bottom:64px ;
+}
+#explicacion p{
+    width: 754px; 
+    height: 313px;
+    text-align: center;
+    padding: 30px 30px;
+
+}
+#motivacion p{
+    width: 753px; 
+    height: 216px;
+    text-align: center;
+    padding-top:40px ;
+    margin-left: 610px;
+    
+
+}
+#pescar p{
+    width: 838px; 
+    height: 129px;
+    text-align: center;
+    padding: 44px 35px;
+
+}
+#sub1qs{
+    background-image: url(../img/sub1qs.png) ;
+    background-repeat: no-repeat;
+    background-position:  100px;
+}
+#sub2qs{
+    background-image: url(../img/sub2qs.png) ;
+    background-repeat: no-repeat;
+}
+#sub3qs{
+    background-image: url(../img/sub3qs.png) ;
+    background-repeat: no-repeat;
+}
+#sub4qs{
+    background-image: url(../img/sub4qs.png) ;
+    background-repeat: no-repeat;
+}
+
