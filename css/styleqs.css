@@ -11,12 +11,19 @@
 body {
   font-family: 'Baloo 2', sans-serif;
 }
-
+#a-inicio{
+    background-image: none !important;
+}
 
 #quienes_somos{
     background-image: url(../img/sub_QuienS.png);
     background-repeat: no-repeat;
     background-position-y:-2px ;
+}
+.hero-banner-qs{
+    width: 1420px;
+    height: 800px;
+    background-repeat: no-repeat;
   }
 
 /*main*/

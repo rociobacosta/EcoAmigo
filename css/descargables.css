@@ -1,0 +1,137 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+
+/* ///////////////////////barra de navegacion///////////////////////////// */
+
+#a-inicio{
+  background-image: none !important;
+}
+
+.desc-nav{
+  background-image: url(../img/manchaNav.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
+
+/* ////////////////////////banner/////////////////////////////////////////////// */
+.hero-banner-desc{
+  width: 1420px;
+  height: 800px;
+  background-image: url(../img/descable-banner.jpg);
+  background-repeat: no-repeat;
+}
+
+.cajas{
+  width: 900px;
+  height: 240px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 610px;
+  padding-top: 470px;
+}
+
+.cajas img{
+  margin-left: 25px;
+  width: 230px;
+  height: 210px;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.cajas img:hover{
+  transform: scale(1.1); 
+  filter: brightness(1.2);
+}
+
+/* /////////////////////////info//////////////////////// */
+
+.bienvenidos{
+  width: 1250px;
+  height: 500px;
+  margin-left: 270px; 
+  background-image: url(../img/desc_fondo_celes.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  margin-bottom: 70px;
+}
+
+.bienvenidos img{
+  width: 900px;
+  height: 420px;
+  margin-top: 20px;
+  padding-left: 50px;
+  
+}
+
+/* //////////////////descargables//////////////////////// */
+
+.descargables{
+  width: 1420px;
+  height: 1200px;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 50px;
+  justify-content: space-around; 
+  background-image: url(../img/desc_bgi.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center; 
+}
+
+
+.card{
+  width: 350px;
+  height: 500px;
+  border: 0.5px solid #ccc;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+  margin-left: 50px;
+  border-radius: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+
+.card img{
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+}
+
+.card button{
+  width: 280px;
+  height: 70px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  font-family: 'Baloo 2', sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  border: none;
+  transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+}
+
+.bt-1{
+  background-color: #97BC59;
+}
+.bt-2{
+  background-color: #597BBC;
+}
+.bt-3{
+  background-color: #F2446E;
+}
+.bt-4{
+  background-color: #F1C85C;
+}
+.bt-5{
+  background-color: #D76AD9;
+}
+.bt-6{
+  background-color: #EEF130;
+}
+.card button:hover{
+  transform: scale(1.1); 
+  filter: brightness(1.2);
+}

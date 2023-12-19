@@ -5,25 +5,79 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    
 }
 
 body {
   
   font-family: 'Baloo 2', sans-serif;
+  overflow-x: hidden;
 }
 
 
-.hero-banner img{
-  width: 95vw; 
-  height: 65vh;
-  margin-top: 100px
+/*ESTILO DE HEADER*/
+
+header {
+    width: 1550px; ;
+    height: 150px;
+    text-align: center;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
 }
 
 
 #como_funciona{
   height: 494px;
-  
+}
+#logo {
+    width: 250px;
+    height: 90px;
+}
+
+#buscador {
+    margin-right: 50px;
+    width: 40px;
+    height: 38px;
+}
+
+
+#a-inicio {
+    background-image: url(img/Vector\ \(1\).png);
+    background-repeat: no-repeat;
+    background-position-y:7px ;
+    
+}
+
+
+#barra-de-navegacion a{
+    font-weight: 600;
+    font-size: 22px;
+    text-decoration: none;
+    color:black;
+    padding: 0px 13px;
+    transition: 0.5s ease-in-out;
+   
+}
+
+#barra-de-navegacion a:hover{
+  font-size: 28px;
+  text-shadow: 2px 2px 2px rgba(96, 95, 95, 0.);
+  background-position-y: bottom;
+}
+
+
+
+
+.hero-banner img{
+  width: 1520px;
+}
+/*estilos body*/
+
+#como_funciona{
+  height: 494px;
+  width: 1420px;
   align-items: center;
   display: flex;
   margin: 180px 0px 73px 100px ;
@@ -60,20 +114,15 @@ body {
     
 }
 .tarjetas{
-  margin:0px 283px 88px 104px ;
+  margin:0px 283px 20px 100px ;
 }
-.tarjetas div{
-  display: flex;
-}
+
 .tarjetas h2{
   margin-bottom: 33px ;
   font-size: 36px;
 }
-.tarjetas a img{
-  width: 295px;
-  height: 279px;
-  margin: 0 42px ;
-}
+
+
 #title{
   background-image: url(../img/Vector\ \(1\).png);
   background-repeat: no-repeat;
@@ -81,6 +130,12 @@ body {
   background-position-x:100px;
   text-align: start;
   padding: 60px;
+}
+
+#juegos a img{
+  width: 295px ;
+  height: 409px;
+
 }
 
 #juegos{
@@ -167,5 +222,136 @@ body {
   background-repeat: no-repeat;
   background-position-x: 30px ;
   background-position-y: 20px;
+}
+
+
+/*cards video*/
+.container-video{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-video{
+  height: 250px;
+  width: 420px;
+  box-shadow: 5px 5px 10px black;
+  margin: 0 50px 0 0;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  transition: .5s;
+  position: relative;
+  border-radius: 10px;
+}
+
+.card-video .intro-video{
+  height: 0;
+  width: 420px;
+  padding-left: 15px;
+  position: absolute; 
+  box-sizing: border-box;
+  color: black;
+  background-color: rgb(255, 255, 255, .7);
+  bottom: 0;
+  transition: .5s;
+  display: flex;
+
+}
+
+.card-1{
+  background-image: url(img/video-1.png);
+}
+
+.card-2{
+  background-image: url(img/video-2.png);
+}
+
+.card-3{
+  background-image: url(img/video-3.png);
+}
+
+.card-video:hover{
+  transform: scale(1.1);
+}
+
+.card-video:hover .intro-video{
+  height: 100px;
+  width: 420px;
+  bottom: 0;
+
+}
+
+.card-video:hover .intro-video a, 
+.card-video:hover .intro-video .text{
+ opacity: 1;
+ visibility: visible;
+}
+
+
+.card-video .intro-video .text{
+ width: 230px;
+}
+
+.card-video .intro-video a{
+  width: 5px;
+  height: 50px;
+} 
+
+.card-video:hover .intro-video a{
+  transform: translateY(-50%);
+}
+
+/*estilos footer*/
+footer{
+  width: 1550px;
+  height: 1000px;
+  margin-top: 150px;
+  font-family: 'Baloo 2', sans-serif;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+
+.footerAnimalitos img{
+  width: 1200px;
+  height: 500px;
+}
+
+.informacionFooter{
+   margin-top: 78px;
+   width: 1550px;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center; 
+   background-image: url(img/bgi-footer.png);
+   background-position-x: 170px ;
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+.logo-footer{
+  width: 400px;
+  height: 120px;
+  padding-bottom: 19px;
+  padding-left: 10px;
+}
+
+.informacionFooter .seguinos{
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.informacionFooter .redes img{
+  width: 55px;
+  height: 55px;
+  margin: 20px 20px;
+}
+
+.informacionFooter .derechosReservados{
+  font-weight: lighter;
+  font-size: 20px;
+  margin-top: 100px;
 }
 
