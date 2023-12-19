@@ -64,14 +64,9 @@ header {
 }
 
 
-.hero-banner{
-  width: 1550px;
-  height: 626px; 
-  margin-bottom:40px ;
-}
 
 .hero-banner img{
-  width: 1550px;
+  width: 1520px;
 }
 /*estilos body*/
 
