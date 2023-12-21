@@ -1,47 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Nunito:ital,wght@0,400;0,600;1,300;1,400&display=swap');
 
 
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 body {
   
   font-family: 'Baloo 2', sans-serif;
-  overflow-x: hidden;
 }
 
 
 /*ESTILO DE HEADER*/
 
 header {
-    width: 1550px; ;
-    height: 150px;
-    text-align: center;
-    padding: 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-}
-
+  width: 1550px;
+  height: 150px;
+  text-align: center;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  
+} 
 
 #como_funciona{
   height: 494px;
 }
+
 #logo {
-    width: 250px;
-    height: 90px;
+  width: 220px;
+  height: 90px;
 }
 
 #buscador {
-    margin-right: 50px;
-    width: 40px;
+    margin-right: 30px;
+    width: 35px;
     height: 38px;
 }
-
 
 #a-inicio {
     background-image: url(img/Vector\ \(1\).png);
@@ -49,7 +55,6 @@ header {
     background-position-y:7px ;
     
 }
-
 
 #barra-de-navegacion a{
     font-weight: 600;
@@ -68,8 +73,6 @@ header {
 }
 
 
-
-
 .hero-banner img{
   width: 1520px;
 }
@@ -77,7 +80,7 @@ header {
 
 #como_funciona{
   height: 494px;
-  width: 1420px;
+  width: 1442px;
   align-items: center;
   display: flex;
   margin: 180px 0px 73px 100px ;
@@ -116,12 +119,13 @@ header {
 .tarjetas{
   margin:0px 283px 20px 100px ;
 }
-
+.tarjetas div{
+  display: flex;
+}
 .tarjetas h2{
   margin-bottom: 33px ;
   font-size: 36px;
 }
-
 
 #title{
   background-image: url(../img/Vector\ \(1\).png);
@@ -196,9 +200,36 @@ header {
   }
 
 #cuentos a img{
-  width: 344px ;
-  height: 348px;
+  width: 213px ;
+  height: 206px;
+  margin: 27px 65px 15px 66px;
 }
+
+#cuentos article {
+  width: 344px;
+  height: 348px;
+  border-radius: 20px;
+  margin: 30px;
+
+}
+
+#article-cuento-1 {
+background-color: #bf84af;
+}
+#article-cuento-2 {
+  background-color: #04b2d9;
+  }
+#article-cuento-3 {
+  background-color: #a65d33;
+  }
+
+#cuentos p {
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+
+}
+
 .subrayado1{
   background-image: url(img/sub1.png);
   background-repeat: no-repeat;
@@ -223,7 +254,6 @@ header {
   background-position-x: 30px ;
   background-position-y: 20px;
 }
-
 
 /*cards video*/
 .container-video{
@@ -320,17 +350,18 @@ footer{
 }
 
 .informacionFooter{
-   margin-top: 78px;
-   width: 1550px;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center; 
-   background-image: url(img/bgi-footer.png);
-   background-position-x: 170px ;
-   background-size: contain;
-   background-repeat: no-repeat;
+  margin-top: 78px;
+  width: 1550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-image: url(img/bgi-footer.png);
+  background-position-x: 170px ;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
 .logo-footer{
   width: 400px;
   height: 120px;
