@@ -6,10 +6,10 @@ body {
   font-family: 'Baloo 2', sans-serif;
 }
 
-.contacto-banner img{
-  width: 90vw; 
-  height: 65vh;
-  margin-top: 100px;
+.contacto-banner {
+  width: 1420px;
+  height: 800px;
+  background-repeat: no-repeat;
 }
 
 #a-contacto {
@@ -67,15 +67,15 @@ textarea {
 }
 
 input[type="checkbox"] {
-  width: 20px; /* Ancho del checkbox */
-  height: 20px; /* Altura del checkbox */
-  margin-right: 10px; /* Espaciado entre el checkbox y el texto */
-  float: left; /* Mueve el checkbox al lado izquierdo del texto */
+  width: 20px; 
+  height: 20px; 
+  margin-right: 10px; 
+  float: left; 
 }
 
 label {
   display: block;
-  overflow: hidden; /* Evita problemas de altura del checkbox */
+  overflow: hidden; 
 }
 
 
@@ -92,12 +92,5 @@ button {
   cursor: pointer;
   margin: auto;
 }
-
-
-/*.footerAnimalitos {
-    
-  text-align: center;
-  
-}*/
 
 
