@@ -73,8 +73,8 @@ header {
 }
 
 
-.hero-banner img{
-  width: 1520px;
+.hero-banner{
+  width: 1420px;
 }
 /*estilos body*/
 
@@ -107,8 +107,12 @@ header {
   width: 184px;
   height: 163px;
   margin-bottom: 42px ;
-
 }
+#videos #cuentos #juegos{
+  scroll-behavior: smooth; 
+}
+
+
 #animalitos{
     background-image: url(img/animalitos.png);
     background-repeat: no-repeat;
