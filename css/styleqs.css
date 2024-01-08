@@ -65,6 +65,18 @@ p{
     background-color:#8f84a5 ;
     margin-right:130px !important;
 }
+
+#somos article img{
+    width: 150px;
+    height: 180px;
+    border-radius: 20px;
+    margin: 20px 35px ;
+}
+
+#somos article p{
+    margin: 1px 5px;
+    text-align: center;
+}
 #texto{
     
     margin: auto;
