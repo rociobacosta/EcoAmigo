@@ -256,6 +256,14 @@ text-align: center;
 }
 
 /*cards video*/
+
+.contenedor-padre-videos {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
 .container-video{
   display: flex;
   justify-content: center;
@@ -278,10 +286,6 @@ text-align: center;
   height: 0;
   width: 420px;
   padding-left: 15px;
-  position: absolute; 
-  box-sizing: border-box;
-  color: black;
-  background-color: rgb(255, 255, 255, .7);
   bottom: 0;
   transition: .5s;
   display: flex;
@@ -297,6 +301,12 @@ text-align: center;
 }
 
 .card-3{
+  margin-top: 50px;
+  background-image: url(img/video-3.png);
+}
+
+.card-4 {
+  margin-top: 50px;
   background-image: url(img/video-3.png);
 }
 
@@ -311,7 +321,7 @@ text-align: center;
 
 }
 
-.card-video:hover .intro-video a, 
+.card-video:hover .intro-video iframe, 
 .card-video:hover .intro-video .text{
  opacity: 1;
  visibility: visible;
@@ -319,16 +329,31 @@ text-align: center;
 
 
 .card-video .intro-video .text{
- width: 230px;
+  height: 100px ;
+  width: 230px;
 }
 
-.card-video .intro-video a{
-  width: 5px;
-  height: 50px;
+
+.card-video .intro-video iframe{
+  width: 100%;
+  height:100%;
+  opacity: 0;
+  visibility: hidden;
 } 
 
-.card-video:hover .intro-video a{
-  transform: translateY(-50%);
+
+.intro-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+}
+
+.intro-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*estilos footer*/
