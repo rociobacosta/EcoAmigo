@@ -107,6 +107,14 @@ header {
   width: 184px;
   height: 163px;
   margin-bottom: 42px ;
+  border-radius: 20px;
+  transition: .7s;
+}
+#apartados a img:hover{
+  transform:  translateY(-55px);
+}
+.abajo:hover{
+  transform:  translateY(55px) !important;
 }
 #videos #cuentos #juegos{
   scroll-behavior: smooth; 
@@ -217,13 +225,14 @@ header {
 
 }
 
-#article-cuento-1 {
+
+.article-cuento-1 {
 background-color: #bf84af;
 }
-#article-cuento-2 {
+.article-cuento-2 {
   background-color: #04b2d9;
   }
-#article-cuento-3 {
+.article-cuento-3 {
   background-color: #a65d33;
   }
 
@@ -247,7 +256,7 @@ text-align: center;
   background-position-y: 20px;
 }
 .subrayado3{
-  background-image: url(img/sub3.png);
+  background-image: url(img/sub3\ \(1\).png);
   background-repeat: no-repeat;
   background-position-x: 40px ;
   background-position-y: 20px;
