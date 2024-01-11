@@ -17,11 +17,11 @@
     <header>
       <img id="logo" src="../img/logoEcoAmigo (1).png" alt="Logo EcoAmigo" />
       <nav id="barra-de-navegacion">
-        <a href="index.html">INICIO</a>
-        <a href="#">APRENDAMOS</a>
-        <a href="#">JUGUEMOS</a>
-        <a href="#">DESCARGABLES</a>
-        <a href="#">QUIENES SOMOS</a>
+        <a href="../index.html">INICIO</a>
+        <a href="aprendamos.html">APRENDAMOS</a>
+        <a href="juguemos.html">JUGUEMOS</a>
+        <a class="desc-nav" href="descargables.html">DESCARGABLES</a>
+        <a href="quienes_somos.html">QUIENES SOMOS</a>
         <a id="a-contacto" href="contacto.html">CONTACTO</a>
       </nav>
       <img id="buscador" src="../img/buscador.png" alt="Buscador" />
@@ -39,28 +39,16 @@
             </p>
         </div>
 
-        <form>
-          <div class="form-group">
+        <form action="https://formsubmit.co/ecoamigoconsulta@gmail.com" method="POST">
+          <div class="form-group" >
             <label for="nombre">Nombre y Apellido:</label>
             <input type="text" id="nombre" name="nombre" required>
-          </div>
-      
-          <div class="form-group">
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required>
-          </div>
-      
-          <div class="form-group">
             <label for="asunto">Asunto:</label>
             <input type="text" id="asunto" name="asunto" required>
-          </div>
-      
-          <div class="form-group">
             <label for="mensaje">Mensaje:</label>
             <textarea id="mensaje" name="mensaje" required></textarea>
-          </div>
-
-          <div id="texto-formulario">
             <input type="checkbox" id="acepto" name="acepto" required>
             <label for="acepto">Acepto los términos y condiciones</label>
             <p>
@@ -70,13 +58,13 @@
             enviaremos información relacionada con los servicios ofrecidos por EcoAmigo. Podrá ejercer, si lo desea, los derechos de acceso, rectificación, 
             supresión, y demás reconocidos en la normativa mencionada. Para obtener más información acerca de cómo estamos tratando sus datos, acceda a nuestra política de privacidad.
             </p>
-          </div>
-
-          <div class="form-group">
             <button type="submit">Enviar</button>
           </div>
+            
+          <input type="hidden" name="_next" value="http://localhost:52330/EcoAmigo/screen/contacto.html">
+          <input type="hidden" name="_captcha" value="false">
         </form>  
-
+          
     </main>
   
       <footer>
