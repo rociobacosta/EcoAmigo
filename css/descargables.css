@@ -101,16 +101,18 @@
   border: 1px solid #ccc;
 }
 
-.card button{
+.card a{
   width: 280px;
-  height: 70px;
-  margin-bottom: 10px;
+  height: 60px;
+  padding-top: 5px;
   border-radius: 10px;
   font-family: 'Baloo 2', sans-serif;
   font-size: 30px;
   font-weight: bold;
-  border: none;
   transition: transform 0.3s ease-in-out, filter 0.3s ease-in-out;
+  text-decoration: none;
+  color: black;
+  text-align: center;
 }
 
 .bt-1{
@@ -131,7 +133,7 @@
 .bt-6{
   background-color: #EEF130;
 }
-.card button:hover{
+.card a:hover{
   transform: scale(1.1); 
   filter: brightness(1.2);
 }
