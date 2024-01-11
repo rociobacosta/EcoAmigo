@@ -54,7 +54,7 @@ body {
 
   #juegos-online article{
     width: 230px;
-    height: 400px;
+    height: 500px;
     border-radius: 10px;
     box-shadow: 0px 0px 8px rgb(39, 50, 55, 0.55);
     display: flex;
@@ -73,23 +73,29 @@ body {
     }
 
     #juegos-online article h3{
-        font-size: 20px;
-        font-weight: 400;
+        font-size: 15px;
+        font-weight: 800;
         text-align: start;
         width: 100%;
         
     }
 
     .btn{
-        width: 100%;         
-        margin-left: 160px;
-        
-    }
+
+        background-color: rgb(20, 164, 116);
+        height: 2.5em;
+        width: 4em;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
 
     .info{    
-        background-color: #97BC59;
-        color: #ffffff;
-        border-radius: 8px;
+        color: white;
+        font-weight: 550;
        
     }
 
