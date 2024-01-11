@@ -68,11 +68,6 @@ header {
 }
 
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 22caa877fd2afe3a575b13a87a30e517a1c24f36
-
 .hero-banner img{
   width: 1520px;
 }
@@ -334,6 +329,7 @@ footer{
    background-size: contain;
    background-repeat: no-repeat;
 }
+
 .logo-footer{
   width: 400px;
   height: 120px;
