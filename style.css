@@ -1,16 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Nunito:ital,wght@0,400;0,600;1,300;1,400&display=swap');
 
 
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 body {
   
   font-family: 'Baloo 2', sans-serif;
-  overflow-x: hidden;
 }
 
 .dark{
@@ -30,17 +36,19 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* background-color: white; */
 }
+
 
 
 #como_funciona{
   height: 494px;
 }
+
 #logo {
-    width: 250px;
-    height: 90px;
+  width: 220px;
+  height: 90px;
 }
+
 
 #toggle{
   display: none;
@@ -53,13 +61,13 @@ header {
   cursor: pointer;
 }
 
+
 #a-inicio {
     background-image: url(img/Vector\ \(1\).png);
     background-repeat: no-repeat;
     background-position-y:7px ;
     
 }
-
 
 #barra-de-navegacion a{
     font-weight: 600;
@@ -78,14 +86,15 @@ header {
 }
 
 
-.hero-banner img{
-  width: 1520px;
+
+.hero-banner{
+  width: 1420px;
 }
 /*estilos body*/
 
 #como_funciona{
   height: 494px;
-  width: 1420px;
+  width: 1442px;
   align-items: center;
   display: flex;
   margin: 180px 0px 73px 100px ;
@@ -112,8 +121,20 @@ header {
   width: 184px;
   height: 163px;
   margin-bottom: 42px ;
-
+  border-radius: 20px;
+  transition: .7s;
 }
+#apartados a img:hover{
+  transform:  translateY(-55px);
+}
+.abajo:hover{
+  transform:  translateY(55px) !important;
+}
+#videos #cuentos #juegos{
+  scroll-behavior: smooth; 
+}
+
+
 #animalitos{
     background-image: url(img/animalitos.png);
     background-repeat: no-repeat;
@@ -124,12 +145,13 @@ header {
 .tarjetas{
   margin:0px 283px 20px 100px ;
 }
-
+.tarjetas div{
+  display: flex;
+}
 .tarjetas h2{
   margin-bottom: 33px ;
   font-size: 36px;
 }
-
 
 #title{
   background-image: url(../img/Vector\ \(1\).png);
@@ -140,11 +162,7 @@ header {
   padding: 60px;
 }
 
-#juegos a img{
-  width: 295px ;
-  height: 409px;
 
-}
 
 #juegos{
   display: grid;
@@ -160,7 +178,7 @@ header {
 
 #juegos article{
   width: 230px;
-  height: 400px;
+  height: 500px;
   border-radius: 10px;
   box-shadow: 0px 0px 8px rgb(39, 50, 55, 0.55);
   display: flex;
@@ -172,31 +190,71 @@ header {
 
   #portada-de-juego{
       width: 100%;
-      justify-content: center;
+      margin: center;
       border-radius: 10px;
       padding-right: 5px;
       padding-top: 5px;
   }
+  .container{
+    justify-content: center;
+    flex-direction: column;
 
+  }
+  .star-widget{
+    position: relative;
+    flex-direction: row-reverse;
+
+  }
+  .star-widget input {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    appearance:none ;
+    -webkit-aparence:none;
+    margin: 11px;
+  }
+  .star-widget input::before{
+    content: '\f005';
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 34px;
+    color: #464444;
+    transition: .5s;
+  }
+  .star-widget input:hover ~ label::before,
+  .star-widget input:hover::before,
+  .star-widget input:checked ~ input::before,
+  .star-widget input:checked::before{
+    color: #fd4;
+
+  }
+  
   #juegos article h3{
-      font-size: 20px;
-      font-weight: 400;
+      font-size: 15px;
+      font-weight: 800;
       text-align: start;
       width: 100%;
       
   }
-
+  
   .btn{
-      width: 100%;         
-      margin-left: 160px;
-      
+    background-color: rgb(20, 164, 116);
+    height: 2.5em;
+    width: 4em;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   }
 
-  .info{    
-      background-color: #97BC59;
-      color: #ffffff;
-      border-radius: 8px;
-     
+  .info {
+     color: white;
+     font-weight: 550;
+    
   }
 
   .rating{
@@ -204,9 +262,37 @@ header {
   }
 
 #cuentos a img{
-  width: 344px ;
-  height: 348px;
+  width: 213px ;
+  height: 206px;
+  margin: 27px 65px 15px 66px;
 }
+
+#cuentos article {
+  width: 344px;
+  height: 348px;
+  border-radius: 20px;
+  margin: 30px;
+
+}
+
+
+.article-cuento-1 {
+background-color: #bf84af;
+}
+.article-cuento-2 {
+  background-color: #04b2d9;
+  }
+.article-cuento-3 {
+  background-color: #a65d33;
+  }
+
+#cuentos p {
+font-size: 30px;
+font-weight: 600;
+text-align: center;
+
+}
+
 .subrayado1{
   background-image: url(img/sub1.png);
   background-repeat: no-repeat;
@@ -220,7 +306,7 @@ header {
   background-position-y: 20px;
 }
 .subrayado3{
-  background-image: url(img/sub3.png);
+  background-image: url(img/sub3\ \(1\).png);
   background-repeat: no-repeat;
   background-position-x: 40px ;
   background-position-y: 20px;
@@ -232,8 +318,15 @@ header {
   background-position-y: 20px;
 }
 
-
 /*cards video*/
+
+.contenedor-padre-videos {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
 .container-video{
   display: flex;
   justify-content: center;
@@ -256,10 +349,6 @@ header {
   height: 0;
   width: 420px;
   padding-left: 15px;
-  position: absolute; 
-  box-sizing: border-box;
-  color: black;
-  background-color: rgb(255, 255, 255, .7);
   bottom: 0;
   transition: .5s;
   display: flex;
@@ -275,6 +364,12 @@ header {
 }
 
 .card-3{
+  margin-top: 50px;
+  background-image: url(img/video-3.png);
+}
+
+.card-4 {
+  margin-top: 50px;
   background-image: url(img/video-3.png);
 }
 
@@ -289,7 +384,7 @@ header {
 
 }
 
-.card-video:hover .intro-video a, 
+.card-video:hover .intro-video iframe, 
 .card-video:hover .intro-video .text{
  opacity: 1;
  visibility: visible;
@@ -297,16 +392,31 @@ header {
 
 
 .card-video .intro-video .text{
- width: 230px;
+  height: 100px ;
+  width: 230px;
 }
 
-.card-video .intro-video a{
-  width: 5px;
-  height: 50px;
+
+.card-video .intro-video iframe{
+  width: 100%;
+  height:100%;
+  opacity: 0;
+  visibility: hidden;
 } 
 
-.card-video:hover .intro-video a{
-  transform: translateY(-50%);
+
+.intro-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+}
+
+.intro-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*estilos footer*/
@@ -328,16 +438,16 @@ footer{
 }
 
 .informacionFooter{
-   margin-top: 78px;
-   width: 1550px;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center; 
-   background-image: url(img/bgi-footer.png);
-   background-position-x: 170px ;
-   background-size: contain;
-   background-repeat: no-repeat;
+  margin-top: 78px;
+  width: 1550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-image: url(img/bgi-footer.png);
+  background-position-x: 170px ;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .logo-footer{

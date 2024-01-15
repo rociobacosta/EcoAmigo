@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ecoamigo</title>
+    <link rel="stylesheet" href="../css/contacto.css">
+    <link rel="stylesheet" href="../style.css"> 
+    <script
+      src="https://kit.fontawesome.com/32e8a7a2c3.js"
+      crossorigin="anonymous"
+    ></script>
+    
+  </head>
+  <body>
+
+    <header>
+      <img id="logo" src="../img/logoEcoAmigo (1).png" alt="Logo EcoAmigo" />
+      <nav id="barra-de-navegacion">
+        <a href="../index.html">INICIO</a>
+        <a href="aprendamos.html">APRENDAMOS</a>
+        <a href="juguemos.html">JUGUEMOS</a>
+        <a class="desc-nav" href="descargables.html">DESCARGABLES</a>
+        <a href="quienes_somos.html">QUIENES SOMOS</a>
+        <a id="a-contacto" href="contacto.html">CONTACTO</a>
+      </nav>
+      <img id="buscador" src="../img/buscador.png" alt="Buscador" />
+    </header>
+
+    <main>
+
+        <section class="contacto-banner">
+            <img src="../img/bannerContact.png" alt="Banner contacto">
+        </section>
+
+        <div id="p-contacto">
+            <p>
+                No dudes en escribirnos y nos comunicaremos con usted tan pronto como podamos.
+            </p>
+        </div>
+
+        <form id="form" >
+          <div class="form-group" >
+            <label for="nombre">Nombre y Apellido:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="asunto">Asunto:</label>
+            <input type="text" id="asunto" name="subject" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <input type="checkbox" id="acepto" name="acepto" required>
+            <label for="acepto">Acepto los términos y condiciones</label>
+            <p>
+              ENTIENDO Y ACEPTO el tratamiento de mis datos tal y como se describe posteriormente y se explica con mayor detalle en la Política de Privacidad.
+            Información básica en protección de datos.- Conforme al RGPD y la LOPDGDD, EcoAmigo tratará los datos facilitados, con la finalidad de contestar 
+            las dudas y/o quejas planteadas a través del presente formulario y facilitar la información solicitada. Siempre que nos lo autorice previamente,
+            enviaremos información relacionada con los servicios ofrecidos por EcoAmigo. Podrá ejercer, si lo desea, los derechos de acceso, rectificación, 
+            supresión, y demás reconocidos en la normativa mencionada. Para obtener más información acerca de cómo estamos tratando sus datos, acceda a nuestra política de privacidad.
+            </p>
+            <button type="submit">Enviar</button>
+          </div>
+            
+          <input type="hidden" name="_next" value="http://localhost:52330/EcoAmigo/screen/contacto.html">
+          <input type="hidden" name="_captcha" value="false">
+        </form>  
+          
+    </main>
+  
+      <footer>
+        <div class="footerAnimalitos">
+          <img src="../img/footer-animalitos.png" alt="" />
+        </div>
+        <div class="informacionFooter">
+          <img class="logo-footer" src="../img/LOGO-ecoamigo-footer.png" alt="" />
+          <span class="seguinos">Seguinos en nuestras redes - prueba!</span>
+          <div class="redes">
+            <img src="../img/facebook 1.png" alt="">
+            <img src="../img/twitter 1.png" alt="">
+            <img src="../img/google-plus 1.png" alt="">
+            <img src="../img/instagram-sketched 1.png" alt="">
+          </div>
+          <span class="derechosReservados"
+            >© 2023 EcoAmigo Inc. All Rights Reserved.</span
+          >
+        </div>
+  
+      </footer>
+      <script src="../style.js"></script>
+    </body>
+  </html>

@@ -27,43 +27,120 @@ body {
   }
 
 /*main*/
+
+    
+  
 p{
     font-size: 25px;}
 
 #animalitos{
     background-image: url(../img/animalitos.png);
     background-repeat: no-repeat;
-    background-position: right;
-    background-position-y: 700px;
+    background-position: right ; 
+    background-position-y: 500px  !important; 
     
 }
 #somos{
-    width: 1440px;
-    height: 686px;
     display: flex;
+    background-image: url(../img/bgi-footer.png);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
-#somos article{
+#somos a article{
     width: 220px;
     height: 310px;
     border-radius: 20px;
-    margin: 242px 10px 178px;
+    margin: 20px 30px 178px;
+    overflow:hidden;
+    position:relative;
+    transition: .5s;
 }
+#somos a article:hover {
+    box-shadow: 0 5px 15px rgba(3, 89, 92, .5);
+    transform:   scale(1.25);
+    
+}
+
+
 #sofi{
-    background-color:#A65D33 ;
-    margin-left: 130px !important;
+    
+    background-color:#ebf2f3;
+    margin-left: 150px !important;
+    /*#A65D33 */
+    
 }
+#sofi .circulo{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius:50% ;
+    background:#A65D33 ;
+    bottom: 60%;
+}
+
 #ro{
-    background-color:#0f5fa6 ;
+    background-color:#ebf2f3 ;
+    /*#0f5fa6*/
+}
+#ro .circulo{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius:50% ;
+    background:#0f5fa6 ;
+    bottom: 60%;
 }
 #trini{
-    background-color:#04b2d9 ;
+    background-color: #ebf2f3;
+    /*#04b2d9*/
+}
+#trini .circulo{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius:50% ;
+    background:#04b2d9;
+    bottom: 60%;
 }
 #flor{
-    background-color:#7dbf5e ;
+    background-color:#ebf2f3 ;
+    /*#7dbf5e*/
+
+}
+#flor .circulo{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius:50% ;
+    background:#7dbf5e ;
+    bottom: 60%;
 }
 #carli{
-    background-color:#8f84a5 ;
+    background-color:#ebf2f3 ;
     margin-right:130px !important;
+    /*#8f84a5*/
+}
+#carli .circulo{
+    position: absolute;
+    width: 220px;
+    height: 220px;
+    border-radius:50% ;
+    background:#8f84a5 ;
+    bottom: 60%;
+}
+
+#somos article img{
+    width: 150px;
+    height: 180px;
+    border-radius: 70px;
+    margin: 20px 35px ;
+    position: absolute;
+}
+
+#somos article p{
+    height: 200px;
+    padding: 220px 20px 20px 20px;
+    text-align: center;
 }
 #texto{
     
