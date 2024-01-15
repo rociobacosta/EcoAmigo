@@ -19,8 +19,9 @@
 .hero-banner-desc{
   width: 1420px;
   height: 800px;
-  background-image: url(../img/descable-banner.jpg);
+  background-image: url(../img/banner_descargables.png);
   background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .cajas{
