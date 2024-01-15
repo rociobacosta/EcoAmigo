@@ -13,6 +13,12 @@ body {
   overflow-x: hidden;
 }
 
+.dark{
+  background-color: #333;
+  color: white;
+  transition: all 1.5s ease;
+}
+
 
 /*ESTILO DE HEADER*/
 
@@ -24,7 +30,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
+    /* background-color: white; */
 }
 
 
@@ -36,12 +42,16 @@ header {
     height: 90px;
 }
 
-#buscador {
-    margin-right: 50px;
-    width: 40px;
-    height: 38px;
+#toggle{
+  display: none;
 }
 
+#label_toggle{
+  font-size: 2em;
+  margin-right: 50px;
+  color:blue;
+  cursor: pointer;
+}
 
 #a-inicio {
     background-image: url(img/Vector\ \(1\).png);
