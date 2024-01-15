@@ -59,4 +59,8 @@ document.querySelectorAll('a[href^="#cuentos"]').forEach(anchor => {
 }
 
 form.addEventListener("submit",handleSendEmail)
+/*estrellitas*/
+
+
+
 

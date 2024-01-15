@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>ecoamigo</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/react-dom/18.2.0/umd/react-dom.production.min.js" integrity="sha512-hf8Z6H/vpZ1D0VNrNXLsoxYIDszm/LhugG8s6NKhAf3r/+NuswNoaOR1+3QOPsW/rIvdvKynSzBILrOFWH06OQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script
       src="https://kit.fontawesome.com/32e8a7a2c3.js"
       crossorigin="anonymous"
@@ -96,13 +97,15 @@
               <article>
                 <img id="portada-de-juego" src="img/juego.1.jpg" alt="">
                 <h3>Puzzle Recogida de Residuos</h3>
-                <span class="rating">
-                    <img src="img/star-half-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                </span>
+                <div class="container">
+                  <div class="star-widget">
+                    <input type="radio" name="clr1" style="--c:#ff9933"> 
+                    <input type="radio" name="clr1" style="--c:#ff9933"> 
+                    <input type="radio" name="clr1" style="--c:#ff9933"> 
+                    <input type="radio" name="clr1" style="--c:#ff9933"> 
+                    <input type="radio" name="clr1" style="--c:#ff9933"> 
+                  </div>
+                </div>
 
                 <div class="detalles-juego">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
@@ -119,14 +122,15 @@
               <article>
                 <img id="portada-de-juego" src="img/juego.2.jpg" alt="">
                 <h3>WATER SIMULATOR</h3>
-                <span class="rating">
-                    <img src="img/star-half-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                    
-                </span>
+                <div class="container">
+                  <div class="star-widget">
+                    <input type="radio" name="clr2" style="--c:#ffffff"> 
+                    <input type="radio" name="clr2" style="--c:#ffffff"> 
+                    <input type="radio" name="clr2" style="--c:#ffffff"> 
+                    <input type="radio" name="clr2" style="--c:#ffffff"> 
+                    <input type="radio" name="clr2" style="--c:#ffffff"> 
+                  </div>
+                </div>
                 <div class="detalles-juego">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
@@ -141,14 +145,15 @@
               <article>
                 <img id="portada-de-juego" src="img/juego.3.jpeg" alt="">
                 <h3>RECYCLE HERO: Reciclar Basura</h3>
-                <span class="rating">
-                    <img src="img/star-half-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                    <img src="img/star-16.png">
-                    
-                </span>
+                <div class="container">
+                  <div class="star-widget">
+                    <input type="radio" name="clr3" style="--c:#2ae418"> 
+                    <input type="radio" name="clr3" style="--c:#2ae418"> 
+                    <input type="radio" name="clr3" style="--c:#2ae418"> 
+                    <input type="radio" name="clr3" style="--c:#2ae418"> 
+                    <input type="radio" name="clr3" style="--c:#2ae418"> 
+                  </div>
+                </div>
                 <div class="detalles-juego">
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                 </div>
@@ -217,6 +222,7 @@
           >© 2023 EcoAmigo Inc. All Rights Reserved.</span>
       </div>
     </footer>
+    <script src="style.js"></script>
 
   </body>
 </html>

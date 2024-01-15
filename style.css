@@ -182,7 +182,44 @@ header {
       padding-right: 5px;
       padding-top: 5px;
   }
+  .container{
+    justify-content: center;
+    flex-direction: column;
 
+  }
+  .star-widget{
+    position: relative;
+    flex-direction: row-reverse;
+
+  }
+  .star-widget input {
+    position: relative;
+    width: 15px;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    appearance:none ;
+    -webkit-aparence:none;
+    margin: 11px;
+  }
+  .star-widget input::before{
+    content: '\f005';
+    position: absolute;
+    font-family: fontAwesome;
+    font-size: 34px;
+    color: #464444;
+    transition: .5s;
+  }
+  .star-widget input:hover ~ label::before,
+  .star-widget input:hover::before,
+  .star-widget input:checked ~ input::before,
+  .star-widget input:checked::before{
+    color: #fd4;
+
+  }
+  
   #juegos article h3{
       font-size: 15px;
       font-weight: 800;
