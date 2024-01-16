@@ -89,7 +89,7 @@ button {
   font-weight: 600;
   height: 60px;
   width: 150px;
-  background-color: #0F5FA6;
+  background-color: #0F5FA6 !important;
   color: #fff;
   padding: 10px;
   border-radius: 20px;
