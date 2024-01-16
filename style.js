@@ -47,10 +47,6 @@ document.querySelectorAll('a[href^="#cuentos"]').forEach(anchor => {
 // Event Listener
 
 
-  
-
-
-
 
 clickCard.addEventListener("click", function(event){
     const closestArticle = event.target.closest("article");
@@ -125,6 +121,7 @@ function abrirPopUp(){
     section.style.position = "absolute";
     
 }
+
 
 function cerrarPopUp(){
     section.style.display = "none";

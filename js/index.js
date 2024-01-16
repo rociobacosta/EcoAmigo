@@ -1,5 +1,8 @@
-let toggle = document.getElementById('toggle');
-let label_toggle = document.getElementById('label_toggle');
+//let toggle = document.getElementById('toggle');
+//let label_toggle = document.getElementById('label_toggle');
+
+let toggle = document.querySelector('#toggle');
+let label_toggle = document.querySelector('#label_toggle');
 
 toggle.addEventListener('change', (event) =>{
   let checked = event.target.checked;
