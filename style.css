@@ -19,20 +19,26 @@ body {
   font-family: 'Baloo 2', sans-serif;
 }
 
+.dark{
+  background-color: #333;
+  color: white;
+  transition: all 1.5s ease;
+}
+
 
 /*ESTILO DE HEADER*/
 
 header {
-  width: 1550px;
-  height: 150px;
-  text-align: center;
-  padding: 0 30px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-color: white;
-  
-} 
+    width: 1550px; ;
+    height: 150px;
+    text-align: center;
+    padding: 0 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 
 #como_funciona{
   height: 494px;
@@ -43,11 +49,18 @@ header {
   height: 90px;
 }
 
-#buscador {
-    margin-right: 30px;
-    width: 35px;
-    height: 38px;
+
+#toggle{
+  display: none;
 }
+
+#label_toggle{
+  font-size: 2em;
+  margin-right: 50px;
+  color:blue;
+  cursor: pointer;
+}
+
 
 #a-inicio {
     background-image: url(img/Vector\ \(1\).png);
@@ -289,7 +302,7 @@ text-align:center;
 /* Pop up  */
 
 .pop-up{
-  width: 100%;
+  width: 1420px;
   height: 700px;
   border-radius: 24px ;
   background-color: rgba(143, 187, 129, 0.904);
