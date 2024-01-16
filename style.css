@@ -55,9 +55,9 @@ header {
 }
 
 #label_toggle{
-  font-size: 2em;
-  margin-right: 50px;
-  color:rgb(16, 16, 17) !important;
+  font-size: 2em ;
+  margin-right: 50px ;
+  color:rgb(15, 15, 68) ;
   cursor: pointer;
 }
 
