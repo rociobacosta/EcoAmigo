@@ -10,7 +10,7 @@
       src="https://kit.fontawesome.com/32e8a7a2c3.js"
       crossorigin="anonymous"
     ></script>
-
+    
   </head>
   <body>
     <header>
@@ -139,9 +139,7 @@
                 </div>
 
             </article>
-            
-
-           
+    
               <article>
                 <img id="portada-de-juego" src="img/juego.3.jpeg" alt="">
                 <h3>RECYCLE HERO: Reciclar Basura</h3>
@@ -164,44 +162,118 @@
             </article>
             
           </div>
-        </section>
-
+ 
+        <!-- SECCION CUENTOS -->
+        
         <section class="tarjetas" id="cuentos">
           <div class="subrayado4">
             <h2>Cuentos que te pueden interesar</h2>
-          </div>
+          </div>  
           <div id="cuentos">
-            <div>
-              <a href="https://www.youtube.com/watch?v=omQXrNIZV2c" target= "_blank">
-                <article class="article-cuento-1" class="front">
-                  <img src="img/cuento1.jpeg" alt="">
-                  <p>Cuida tu planeta</p>
-                </article>
-                
-              </a>
-            </div>
-            <div>
-              <a href="" target= "_blank">
-                <article class="article-cuento-2" class="front">
-                  <img src="img/cuento2.jpeg" alt="">
-                  <p>¿Por que debo reciclar?</p>
-                </article>
-                
-              </a>
-            </div>
-            <div>
-              <a href="" target= "_blank">
-              <article class="article-cuento-3" class="front">
-                <img src="img/cuento3.jpeg" alt="">
-                <p>Capitan VerdeMan</p>
+              <article id="article-cuento-1">
+                <img class ="img-cuentos" src="img/portada-libro1.png" alt="">
+                <p>El Bosque de Colores Brillantes</p>
+              </article>
+
+              <article id="article-cuento-2">
+                <img class ="img-cuentos" src="img/portada-libro2.png" alt="">
+                <p>El Maravilloso Mundo ReciColor</p>
               </article>
             
-            </a>
-            </div>
-            
+              <article id="article-cuento-3">
+                <img class ="img-cuentos" src="img/portada-libro3.png" alt="">
+                <p>El Misterioso Planeta Resplandor</p>
+              </article>
           </div>
         </section>
-      </div>
+        
+           <!-- Pop up -->
+        <section class="pop-up" id="pop-up"> 
+          <button class="popup-btn" id="cerrar-popup">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <!-- Boton Anterior -->
+            <button class="popup-btn" id="atras-btn">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+    
+            <!-- LIBRO-->
+            <div id="libro" class="libro">
+              <!-- pagina 1 -->
+              <div class="pagina" id="p1">
+                <div class="frente" id="f1">
+                  <div class="content-frente">
+                    <img src="img/portada-libro1.png" alt="">
+                  </div>
+    
+                </div>
+                <div class="atras" id="atras-p1">
+                  <div class="content-atras">
+                    <img src="img/sinopsis-libro1.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <!-- pagina 2 -->
+              <div class="pagina" id="p2">
+                <div class="frente" id="f2" >
+                  <div class="content-frente">
+                    <img src="img/pagina1-libro1.png" alt="">
+                  </div>
+    
+                </div>
+                <div class="atras" id="atras-p2">
+                  <div class="content-atras">
+                    <img src="img/pagina2-libro1.png" alt="">
+    
+                  </div>
+                  
+                </div>
+    
+              </div>
+              <!-- pagina 3 -->
+              <div class="pagina" id="p3">
+                <div class="frente" id="f3">
+                  <div class="content-frente">
+                    <img src="img/pagina3-libro.png" alt="">
+                  </div>
+    
+                </div>
+                <div class="atras" id="atras-p3">
+                  <div class="content-atras" >
+                    <img src="img/pagina4-libro1.png" alt="">
+    
+                  </div>
+                  
+                </div>
+    
+              </div>
+               <!-- pagina 4 -->
+               <div class="pagina" id="p4" >
+                <div class="frente" id="f4" >
+                  <div class="content-frente">
+                    <img src="img/consejos-ultimapag.png" alt="">
+                  </div>
+    
+                </div>
+                <div class="atras"  id="atras-p4">
+                  <div class="content-atras">
+                    <img src="img/ultimapagi.png" alt="">
+                  </div>
+                  
+                </div>
+    
+              </div>
+            </div>
+    
+          <!-- Boton Siguiente -->
+            <button class="popup-btn" id="sigui-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          
+        </section>
+      </section>
+
     </main>
 
     <footer>
@@ -222,7 +294,7 @@
           >© 2023 EcoAmigo Inc. All Rights Reserved.</span>
       </div>
     </footer>
-    <script src="style.js"></script>
 
+    <script src="style.js"></script>
   </body>
 </html>
