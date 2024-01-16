@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Nunito:ital,wght@0,400;0,600;1,300;1,400&display=swap');
+
+
+body {
+  
+  font-family: 'Baloo 2', sans-serif;
+}
+
+.contacto-banner {
+  width: 1420px;
+  height: 800px;
+  background-repeat: no-repeat;
+}
+
+#a-contacto {
+
+    background-image: url(../img/sub3\ \(1\).png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-y:3px ;
+  
+}
+
+#p-contacto {
+
+  font-size: 30px;
+  text-align: center;
+  margin: 90px;
+  font-weight: 600;
+}
+
+form {
+  width: 40%;
+  margin: 20px auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: calc(100% - 22px);
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #0F5FA6;
+  border: 1px solid #0F5FA6;
+  border-radius: 20px;
+  color: #fff;
+}
+
+textarea {
+  height: 100px;
+}
+
+#texto-formulario {
+  margin: 50px;
+  text-align: justify;
+ 
+}
+
+input[type="checkbox"] {
+  width: 20px; 
+  height: 20px; 
+  margin-right: 10px; 
+  float: left; 
+}
+
+label {
+  display: block;
+  overflow: hidden; 
+}
+
+
+button {
+  display:block;
+  font-size: 32px;
+  font-weight: 600;
+  height: 60px;
+  width: 150px;
+  background-color: #0F5FA6;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  margin: auto;
+}
+
+

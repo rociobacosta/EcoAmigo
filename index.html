@@ -9,17 +9,18 @@
       src="https://kit.fontawesome.com/32e8a7a2c3.js"
       crossorigin="anonymous"
     ></script>
+    
   </head>
   <body>
     <header>
       <img id="logo" src="img/logoEcoAmigo (1).png" alt="Logo EcoAmigo" />
       <nav id="barra-de-navegacion">
         <a id="a-inicio" href="./index.html">INICIO</a>
-        <a href="#">APRENDAMOS</a>
-        <a href="#">JUGUEMOS</a>
-        <a href="./screen/descargables.html">DESCARGABLES</a>
-        <a href="#">QUIENES SOMOS</a>
-        <a href="#">CONTACTO</a>
+        <a href="screen/aprendamos.html">APRENDAMOS</a>
+        <a href="screen/juguemos.html">JUGUEMOS</a>
+        <a href="screen/descargables.html">DESCARGABLES</a>
+        <a href="screen/quienes_somos.html">QUIENES SOMOS</a>
+        <a href="screen/contacto.html">CONTACTO</a>
       </nav>
       <img id="buscador" src="img/buscador.png" alt="Buscador" />
     </header>
@@ -42,49 +43,44 @@
             </p>
           </div>
           <div id="apartados">
-            <a href=".juegos"><img src="img/Group 1.png" alt="juega" /> </a>
-            <a href=""><img src="img/Group 2.png" alt="mira videps" /> </a>
-            <a href=""><img src="img/Group 3.png" alt="lee" /> </a>
+            <a href="#juegos"><img src="img/Group 1.png" alt="juega" /> </a>
+            <a href="#videos"><img src="img/Group 2.png" alt="mira videps" /> </a>
+            <a href="#cuentos" ><img src="img/Group 3.png" alt="lee" /> </a>
             <a href=""><img src="img/Group 4.png" alt="descarga" /> </a>
           </div>
         </section>
 
-        <section class="tarjetas">
+        <section class="tarjetas" id="videos">
           <div class="subrayado2">
             <h2>Videos educativos</h2>
           </div>
 
-          <div class="container-video">
-            <div class="card-video card-1">   
-              <div class="intro-video">
-                <div class="text">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p class="chanel">Canal Reciclado</p>
-                  <p class="timingduration"><b>10K - Hace un año</b></p>
-                </div>
-                <a href=""><img src="./img/icono-play.png" alt=""></a>
-              </div>
-            </div>
+            <div class="contenedor-padre-videos">
 
-            <div class="card-video card-2">    
-              <div class="intro-video">   
-                <div class="text">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p class="chanel">Canal Reciclado</p>
-                  <p class="timingduration"><b>10K - Hace un año</b></p>
+              <div class="card-video card-1">    
+                  <div class="intro-video">   
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/-UFFFUTMlCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
                 </div>
-                <a href=""><img src="./img/icono-play.png" alt=""></a>
-              </div>
-            </div>
-            <div class="card-video card-3">
-              <div class="intro-video">
-                <div class="text">
-                  <h4>Lorem, ipsum dolor.</h4>
-                  <p class="chanel">Canal Reciclado</p>
-                  <p class="timingduration"><b>10K - Hace un año</b></p>
+
+                <div class="card-video card-2">    
+                  <div class="intro-video">   
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/-UFFFUTMlCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
                 </div>
-                <a href=""><img src="./img/icono-play.png" alt=""></a>
-              </div>
+
+                <div class="card-video card-3">
+                  <div class="intro-video">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/-UFFFUTMlCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+
+                <div class="card-video card-4">
+                  <div class="intro-video">
+                    <iframe width="420" height="315" src="https://www.youtube.com/embed/-UFFFUTMlCw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                  </div>
+                </div>
+                
             </div>
           </div>
         </section>
@@ -95,35 +91,183 @@
           </div>
 
           <div id="juegos">
-            <a href="">
-              <img src="img/Group 10.png" alt="" />
-            </a>
-            <a href="">
-              <img src="img/Group 11.png" alt="" />
-            </a>
-            <a href="">
-              <img src="img/Group 12.png" alt="" />
-            </a>
-          </div>
-        </section>
 
-        <section class="tarjetas">
-          <div class="subrayado4">
-            <h2>Cuentos interactivos online</h2>
+            
+              <article>
+                <img id="portada-de-juego" src="img/juego.1.jpg" alt="">
+                <h3>Puzzle Recogida de Residuos</h3>
+                <span class="rating">
+                    <img src="img/star-half-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    
+                </span>
+                <div class="detalles-juego">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="btn">
+                    <a href="https://www.cokitos.com/puzzle-recogida-de-residuos/play/" class="info" target="_blank">Jugar</a>
+                </div>
+
+            </article>
+            
+
+            
+              <article>
+                <img id="portada-de-juego" src="img/juego.2.jpg" alt="">
+                <h3>WATER SIMULATOR</h3>
+                <span class="rating">
+                    <img src="img/star-half-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    
+                </span>
+                <div class="detalles-juego">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="btn">
+                    <a href="https://www.cokitos.com/water-simulator-recoger-y-reciclar-basura-del-oceano/play/" class="info" target="_blank">Jugar</a>
+                </div>
+
+            </article>
+    
+              <article>
+                <img id="portada-de-juego" src="img/juego.3.jpeg" alt="">
+                <h3>RECYCLE HERO: Reciclar Basura</h3>
+                <span class="rating">
+                    <img src="img/star-half-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    <img src="img/star-16.png">
+                    
+                </span>
+                <div class="detalles-juego">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                </div>
+                <div class="btn">
+                    <a href="https://www.cokitos.com/reciclar-basura/play/" class="info" target="_blank">Jugar</a>
+                </div>
+
+            </article>
+            
           </div>
+ 
+        <!-- SECCION CUENTOS -->
+        
+        <section class="tarjetas" id="cuentos">
+          <div class="subrayado4">
+            <h2>Cuentos que te pueden interesar</h2>
+          </div>  
           <div id="cuentos">
-            <a href="">
-              <img src="img/Group 7.png" alt="" />
-            </a>
-            <a href="">
-              <img src="img/Group 8.png" alt="" />
-            </a>
-            <a href="">
-              <img src="img/Group 9.png" alt="" />
-            </a>
+              <article id="article-cuento-1">
+                <img class ="img-cuentos" src="img/portada-libro1.png" alt="">
+                <p>El Bosque de Colores Brillantes</p>
+              </article>
+
+              <article id="article-cuento-2">
+                <img class ="img-cuentos" src="img/portada-libro2.png" alt="">
+                <p>El Maravilloso Mundo ReciColor</p>
+              </article>
+            
+              <article id="article-cuento-3">
+                <img class ="img-cuentos" src="img/portada-libro3.png" alt="">
+                <p>El Misterioso Planeta Resplandor</p>
+              </article>
           </div>
         </section>
-      </div>
+        
+           <!-- Pop up -->
+        <section class="pop-up" id="pop-up"> 
+          <button class="popup-btn" id="cerrar-popup">
+            <i class="fa-solid fa-xmark"></i>
+          </button>
+          <!-- Boton Anterior -->
+            <button class="popup-btn" id="atras-btn">
+              <i class="fa-solid fa-arrow-left"></i>
+            </button>
+    
+            <!-- LIBRO-->
+            <div id="libro" class="libro">
+              <!-- pagina 1 -->
+              <div class="pagina" id="p1">
+                <div class="frente" id="f1">
+                  <div class="content-frente">
+                    <img src="img/portada-libro1.png" alt="">
+                  </div>
+    
+                </div>
+                <div class="atras" id="atras-p1">
+                  <div class="content-atras">
+                    <img src="img/sinopsis-libro1.png" alt="">
+                  </div>
+                </div>
+              </div>
+
+              <!-- pagina 2 -->
+              <div class="pagina" id="p2">
+                <div class="frente" id="f2" >
+                  <div class="content-frente">
+                    <img src="img/pagina1-libro1.png" alt="">
+                  </div>
+    
+                </div>
+                <div class="atras" id="atras-p2">
+                  <div class="content-atras">
+                    <img src="img/pagina2-libro1.png" alt="">
+    
+                  </div>
+                  
+                </div>
+    
+              </div>
+              <!-- pagina 3 -->
+              <div class="pagina" id="p3">
+                <div class="frente" id="f3">
+                  <div class="content-frente">
+                    <img src="img/pagina3-libro.png" alt="">
+                  </div>
+    
+                </div>
+                <div class="atras" id="atras-p3">
+                  <div class="content-atras" >
+                    <img src="img/pagina4-libro1.png" alt="">
+    
+                  </div>
+                  
+                </div>
+    
+              </div>
+               <!-- pagina 4 -->
+               <div class="pagina" id="p4" >
+                <div class="frente" id="f4" >
+                  <div class="content-frente">
+                    <img src="img/consejos-ultimapag.png" alt="">
+                  </div>
+    
+                </div>
+                <div class="atras"  id="atras-p4">
+                  <div class="content-atras">
+                    <img src="img/ultimapagi.png" alt="">
+                  </div>
+                  
+                </div>
+    
+              </div>
+            </div>
+    
+          <!-- Boton Siguiente -->
+            <button class="popup-btn" id="sigui-btn">
+              <i class="fa-solid fa-arrow-right"></i>
+            </button>
+          
+        </section>
+      </section>
+
     </main>
 
     <footer>
@@ -141,9 +285,10 @@
           <img src="img/instagram-sketched 1.png" alt="" />
         </div>
         <span class="derechosReservados"
-          >© 2023 EcoAmigo Inc. All Rights Reserved.</span
-        >
+          >© 2023 EcoAmigo Inc. All Rights Reserved.</span>
       </div>
     </footer>
+
+    <script src="style.js"></script>
   </body>
 </html>

@@ -14,12 +14,19 @@ body {
 /* Hero banner */
 
 .hero-banner img{
-    width: 95vw; 
-    height: 65vh;
-    margin-top: 100px
+    width: 1442px;
+    height: 626px; 
+    margin-bottom:40px ;
    
   }
+  #a-juguemos {
 
+    background-image: url(../img/sub3\ \(1\).png);
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position-y:3px ;
+  
+}
 
   /* Juegos populares */
 .juegos-populares{
@@ -113,13 +120,3 @@ body {
     .rating{
         width: 100%;
     }
-
-
-
-
-    
-
-
-    
-
-        

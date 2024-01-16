@@ -1,43 +1,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;700&family=Nunito:ital,wght@0,400;0,600;1,300;1,400&display=swap');
 
 
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 
 body {
   
   font-family: 'Baloo 2', sans-serif;
-  overflow-x: hidden;
 }
+
 
 /*ESTILO DE HEADER*/
 
 header {
-    width: 1550px; ;
-    height: 150px;
-    text-align: center;
-    padding: 0 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
+  width: 1550px;
+  height: 150px;
+  text-align: center;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  
+} 
 
+#como_funciona{
+  height: 494px;
 }
 
 #logo {
-    width: 250px;
-    height: 90px;
+  width: 220px;
+  height: 90px;
 }
 
 #buscador {
-    margin-right: 50px;
-    width: 40px;
+    margin-right: 30px;
+    width: 35px;
     height: 38px;
 }
-
 
 #a-inicio {
     background-image: url(img/Vector\ \(1\).png);
@@ -45,7 +55,6 @@ header {
     background-position-y:7px ;
     
 }
-
 
 #barra-de-navegacion a{
     font-weight: 600;
@@ -72,7 +81,7 @@ header {
 
 #como_funciona{
   height: 494px;
-  width: 1420px;
+  width: 1442px;
   align-items: center;
   display: flex;
   margin: 180px 0px 73px 100px ;
@@ -99,8 +108,12 @@ header {
   width: 184px;
   height: 163px;
   margin-bottom: 42px ;
-
 }
+#videos #cuentos #juegos{
+  scroll-behavior: smooth; 
+}
+
+
 #animalitos{
     background-image: url(img/animalitos.png);
     background-repeat: no-repeat;
@@ -111,20 +124,241 @@ header {
 .tarjetas{
   margin:0px 283px 20px 100px ;
 }
-
+.tarjetas div{
+  display: flex;
+}
 .tarjetas h2{
   margin-bottom: 33px ;
   font-size: 36px;
 }
 
+#title{
+  background-image: url(../img/Vector\ \(1\).png);
+  background-repeat: no-repeat;
+  background-position-y:70px ;
+  background-position-x:100px;
+  text-align: start;
+  padding: 60px;
+}
+
 #juegos a img{
   width: 295px ;
   height: 409px;
+
 }
-#cuentos a img{
-  width: 344px ;
+
+#juegos{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 2fr));
+  gap: 25px;
+  padding:  4px;
+  margin-left: 50px;
+}
+
+#juegos h3{
+  text-align: center;
+}
+
+#juegos article{
+  width: 230px;
+  height: 400px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 8px rgb(39, 50, 55, 0.55);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 5px;  
+
+}  
+
+  #portada-de-juego{
+      width: 100%;
+      justify-content: center;
+      border-radius: 10px;
+      padding-right: 5px;
+      padding-top: 5px;
+  }
+
+  #juegos article h3{
+      font-size: 20px;
+      font-weight: 400;
+      text-align: start;
+      width: 100%;
+      
+  }
+
+  .btn{
+      width: 100%;         
+      margin-left: 160px;
+      
+  }
+
+  .info{    
+      background-color: #97BC59;
+      color: #ffffff;
+      border-radius: 8px;
+     
+  }
+
+  .rating{
+      width: 100%;
+  }
+
+.img-cuentos{
+  width: 213px ;
+  height: 206px;
+  margin: 27px 65px 15px 66px;
+}
+
+
+
+#cuentos article {
+  width: 344px;
   height: 348px;
+  border-radius: 20px;
+  margin: 30px;
+
+
 }
+
+#article-cuento-1 {
+background-color: #bf84af;
+}
+#article-cuento-2 {
+  background-color: #04b2d9;
+  }
+#article-cuento-3 {
+  background-color: #a65d33;
+  }
+
+#cuentos p {
+font-size: 25px;
+font-weight: 600;
+text-align:center;
+
+
+}
+
+
+/* Pop up  */
+
+.pop-up{
+  width: 100%;
+  height: 700px;
+  border-radius: 24px ;
+  background-color: rgba(143, 187, 129, 0.904);
+  display: none;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  
+  
+}
+.libro{
+  position: absolute;
+  width: 355px;
+  height: 500px;
+  
+}
+
+.pagina{ 
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  perspective: 1500px;
+}
+
+.frente,
+.atras{
+  background-color: white;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top:0;
+  left: 0;
+  transform-origin: left;
+  transition: transform 1.0s ;
+
+}
+.frente{
+  z-index: 1;
+  backface-visibility:hidden;
+  border-left: 10px solid rgb(145, 103, 41);
+}
+
+.atras{
+  z-index: 0;
+}
+
+
+.content-atras{
+
+  width: 355px;
+  height: 100%;
+  transform: rotateY(180deg);
+}
+
+.content-frente{
+  transform: rotate(360deg) ;
+
+}
+
+/* Efecto de pasar pagina */
+
+.pasar-pagina .frente,
+.pasar-pagina .atras{
+  transform: rotateY(-180deg);
+}
+
+/* Botones */
+button{ 
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin:200px;
+}
+
+#cerrar-popup{
+  position: absolute;
+  right: 400px;
+  top: 65px;
+  margin: 30px;
+  cursor: pointer;
+  z-index: 1000;
+
+}
+
+
+button:focus{
+  outline: none;
+
+}
+
+button:hover i{
+  color: #04b2d9;
+}
+
+i{
+  font-size: 50px;
+  color: rgba(255, 255, 255, 0.932);
+}
+
+#p1{
+  z-index: 3;
+}
+
+#p2{
+  z-index: 2;
+}
+
+#p3{
+  z-index: 1;
+}
+
+
+
 .subrayado1{
   background-image: url(img/sub1.png);
   background-repeat: no-repeat;
@@ -151,6 +385,14 @@ header {
 }
 
 /*cards video*/
+
+.contenedor-padre-videos {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+  flex-wrap: wrap;
+}
+
 .container-video{
   display: flex;
   justify-content: center;
@@ -173,10 +415,6 @@ header {
   height: 0;
   width: 420px;
   padding-left: 15px;
-  position: absolute; 
-  box-sizing: border-box;
-  color: black;
-  background-color: rgb(255, 255, 255, .7);
   bottom: 0;
   transition: .5s;
   display: flex;
@@ -184,15 +422,21 @@ header {
 }
 
 .card-1{
-  background-image: url(./img/video-1.png);
+  background-image: url(img/video-1.png);
 }
 
 .card-2{
-  background-image: url(./img/video-2.png);
+  background-image: url(img/video-2.png);
 }
 
 .card-3{
-  background-image: url(./img/video-3.png);
+  margin-top: 50px;
+  background-image: url(img/video-3.png);
+}
+
+.card-4 {
+  margin-top: 50px;
+  background-image: url(img/video-3.png);
 }
 
 .card-video:hover{
@@ -206,7 +450,7 @@ header {
 
 }
 
-.card-video:hover .intro-video a, 
+.card-video:hover .intro-video iframe, 
 .card-video:hover .intro-video .text{
  opacity: 1;
  visibility: visible;
@@ -214,16 +458,31 @@ header {
 
 
 .card-video .intro-video .text{
- width: 230px;
+  height: 100px ;
+  width: 230px;
 }
 
-.card-video .intro-video a{
-  width: 50px;
-  height: 50px;
+
+.card-video .intro-video iframe{
+  width: 100%;
+  height:100%;
+  opacity: 0;
+  visibility: hidden;
 } 
 
-.card-video:hover .intro-video a{
-  transform: translateY(-50%);
+
+.intro-video {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+}
+
+.intro-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
 
 /*estilos footer*/
@@ -245,17 +504,18 @@ footer{
 }
 
 .informacionFooter{
-   margin-top: 78px;
-   width: 1550px;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center; 
-   background-image: url(img/bgi-footer.png);
-   background-position-x: 170px ;
-   background-size: contain;
-   background-repeat: no-repeat;
+  margin-top: 78px;
+  width: 1550px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  background-image: url(img/bgi-footer.png);
+  background-position-x: 170px ;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
+
 .logo-footer{
   width: 400px;
   height: 120px;
@@ -279,3 +539,4 @@ footer{
   font-size: 20px;
   margin-top: 100px;
 }
+
