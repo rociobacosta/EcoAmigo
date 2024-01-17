@@ -34,9 +34,7 @@ form {
   margin: 20px auto;
 }
 
-.form-group {
-  margin-bottom: 15px;
-}
+
 
 label {
   display: block;
@@ -65,7 +63,7 @@ textarea {
 }
 
 #texto-formulario {
-  margin: 50px 0 50px 0;
+  margin-top: 10px;
   text-align: justify;
  
 }
@@ -84,17 +82,16 @@ label {
 
 
 button {
-  display:block;
+  
   font-size: 32px;
   font-weight: 600;
   height: 60px;
   width: 150px;
   background-color: #0F5FA6 !important;
   color: #fff;
-  padding: 10px;
   border-radius: 20px;
   cursor: pointer;
-  margin: auto;
+  margin:auto;
 }
 
 

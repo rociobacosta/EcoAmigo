@@ -57,8 +57,17 @@ header {
 #label_toggle{
   font-size: 2em ;
   margin-right: 50px ;
-  color:rgb(15, 15, 68) ;
   cursor: pointer;
+}
+
+.fa-solid, .fas {
+  color: #4b3eff;
+  font-weight: 900;
+}
+
+.fa-sun:before {
+  color:yellow ;
+
 }
 
 
@@ -68,6 +77,7 @@ header {
     background-position-y:7px ;
     
 }
+
 
 #barra-de-navegacion a{
     font-weight: 600;
